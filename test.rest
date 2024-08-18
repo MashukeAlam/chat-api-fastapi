@@ -1,0 +1,25 @@
+# users
+POST http://127.0.0.1:8000/users HTTP/1.1
+content-type: application/json
+
+{
+    "username": "bob"
+}
+
+###
+
+GET http://127.0.0.1:8000/messages/alice/bob HTTP/1.1
+
+###
+
+# messages
+POST http://127.0.0.1:8000/messages HTTP/1.1
+content-type: application/json
+
+{
+    "sender": "bob",
+    "receiver": "alice",
+    "content": "Hello Alice!"
+}
+
+
