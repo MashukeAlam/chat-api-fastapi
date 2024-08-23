@@ -4,7 +4,7 @@ from pymongo.collection import Collection
 
 # Replace '62.72.7.168' with the IP of your MongoDB server
 mongo_host = "62.72.7.168"
-mongo_port = 27017
+mongo_port = 2919
 
 # Connect to the MongoDB server
 client = MongoClient(f"mongodb://{mongo_host}:{mongo_port}")

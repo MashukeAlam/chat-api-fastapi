@@ -3,7 +3,7 @@ POST http://127.0.0.1:8000/users HTTP/1.1
 content-type: application/json
 
 {
-    "username": "bob"
+    "username": "alexa"
 }
 
 ###
@@ -17,9 +17,9 @@ POST http://127.0.0.1:8000/messages HTTP/1.1
 content-type: application/json
 
 {
-    "sender": "bob",
+    "sender": "alexa",
     "receiver": "alice",
-    "content": "Hello Alice!"
+    "content": "Do you liked my new Raw Vdo!"
 }
 
 
